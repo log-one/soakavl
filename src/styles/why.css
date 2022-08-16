@@ -1,0 +1,148 @@
+.whySectionWrap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  scroll-margin-top: -2em;
+}
+
+.whyHead {
+  box-sizing: border-box;
+  width: 100%;
+  text-align: center;
+  font-size: 2.5em;
+  margin: 0;
+  margin-top: 4em;
+  padding: 1em 4em;
+  border-top-left-radius: 8em;
+  border-top-right-radius: 8em;
+  letter-spacing: 0.05em;
+  color: white;
+  background: black;
+}
+
+.whySectionWrap p {
+  font-size: 1.5em;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 2em;
+  border-radius: 3em;
+  letter-spacing: 0.05em;
+  color: #fff;
+  max-width: 30%;
+  backdrop-filter: blur(10px);
+  margin: 0;
+}
+
+.whyP1 img {
+  /* position: absolute;
+  z-index: -1;
+  width: 100%; */
+  background-image: linear-gradient(white, black);
+  filter: brightness(1.5);
+  border-radius: 20em;
+  width: 35em;
+  height: 20em;
+  /* border-top-right-radius: 10em;
+  border-bottom-right-radius: 10em; */
+}
+.whyP2 img {
+  /* position: absolute;
+  z-index: -1;
+  width: 100%; */
+  filter: brightness(1.5);
+  border-radius: 20em;
+  width: 35em;
+  height: 20em;
+}
+.whyP3 img {
+  /* position: absolute;
+  z-index: -1;
+  width: 100%; */
+  filter: brightness(1.5);
+  border-radius: 20em;
+  width: 35em;
+  height: 20em;
+}
+
+.whyP1 .q1,
+.whyP2 .q2,
+.whyP3 .q3,
+.whyP4 .q4 {
+  font-size: 1.8em;
+  font-weight: bold;
+  background: rgba(122, 68, 216, 1);
+}
+
+.whyP1,
+.whyP3 {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-end;
+  background-image: linear-gradient(black, rgba(0, 0, 0, 1));
+}
+
+.whyP1 {
+  background-image: linear-gradient(black, rgba(0, 0, 0, 1), black);
+  padding-top: 4em;
+}
+
+.whyP1 .q1,
+.whyP3 .q3 {
+  border-top-left-radius: 0;
+  margin-right: 1.5em;
+}
+
+.whyP1 .q1 {
+  margin-top: 2em;
+}
+
+.whyP2 {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: flex-end;
+  background-image: linear-gradient(black, rgba(0, 0, 0, 1), black);
+}
+
+.whyP2 .q2 {
+  border-top-right-radius: 0;
+  margin-left: 1.5em;
+}
+
+.testP {
+  position: relative;
+}
+
+.whyP1 div,
+.whyP2 div,
+.whyP3 div {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 3em 0;
+}
+
+.whyP3 {
+  border-bottom-left-radius: 12em;
+  border-bottom-right-radius: 12em;
+  padding-bottom: 2em;
+}
+
+.whyP4 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(black, rgba(0, 0, 0, 1), black);
+}
+
+.whyP4 p {
+  max-width: 60%;
+  border-top-right-radius: 0;
+  margin: 0;
+  /* border-bottom-left-radius: 0; */
+}

@@ -1,0 +1,105 @@
+.surveySectionWrap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  background: black;
+  margin-top: 10em;
+  border-radius: 12em;
+  padding-bottom: 20em;
+  scroll-margin-top: 8em;
+}
+
+.surveyHead {
+  width: 80%;
+  text-align: right;
+  font-size: 2.5em;
+  padding: 1em 1em 1em 1em;
+  border-radius: 5em;
+  letter-spacing: 0.05em;
+  color: white;
+}
+
+.demographicsWrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0 5em;
+  margin-bottom: 8em;
+}
+
+.demographicsWrap h3 {
+  color: #fff;
+  background: rgba(122, 68, 216, 1);
+  /* height: 3em; */
+  padding: 1em;
+  border-radius: 1em;
+  font-size: 2em;
+  /* margin: 0 8em; */
+  display: flex;
+  align-items: center;
+}
+
+.demographicsWrap img {
+  background: white;
+  border-radius: 2em;
+  width: 37%;
+  margin: 2em 1em;
+}
+
+.individualsWrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 0 5em;
+  align-items: center;
+  margin-bottom: 8em;
+}
+
+.individualsWrap h3 {
+  color: #fff;
+  background: rgba(122, 68, 216, 1);
+  padding: 1em;
+  height: fit-content;
+  border-radius: 1em;
+  font-size: 2em;
+  margin: 0 2em 1em 2em;
+  display: flex;
+  align-items: center;
+}
+
+.individualsWrap img {
+  background: white;
+  border-radius: 2em;
+  width: 45%;
+  margin: 2em 1em;
+}
+
+.commWrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 0 5em;
+  align-items: center;
+  margin-bottom: 8em;
+}
+
+.commWrap h3 {
+  color: #fff;
+  background: rgba(122, 68, 216, 1);
+  padding: 1em;
+  border-radius: 1em;
+  font-size: 2em;
+  margin: 0 2em 1em 2em;
+  display: flex;
+  align-items: center;
+}
+
+.commWrap img {
+  background: white;
+  border-radius: 2em;
+  width: 45%;
+  margin: 2em 1em;
+}

@@ -1,0 +1,367 @@
+.storySectionWrap {
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  border-radius: 5em;
+  scroll-margin-top: 8em;
+}
+
+.storyIntro {
+  font-size: 2.5em;
+  text-align: center;
+  /* border: 4px solid black; */
+  font-weight: bold;
+
+  background: black;
+  padding: 1.6em 3em;
+  border-top-left-radius: 3em;
+  border-top-right-radius: 3em;
+  letter-spacing: 0.05em;
+  color: #fff;
+  /* max-width: 80%; */
+  margin: 0;
+}
+
+.rainClouds {
+  filter: invert(1);
+  background: transparent;
+}
+
+.rainStoryWrap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: -2;
+  background: black;
+}
+
+.rainStoryOverlay {
+  position: absolute;
+  border-top-left-radius: 7.3em;
+  border-top-right-radius: 7.3em;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background: linear-gradient(rgba(255, 255, 255, 0) 80%, black);
+}
+
+.rainStoryWrap p {
+  font-size: 1.5em;
+  background: rgba(0, 0, 0, 0.9);
+  padding: 1.5em;
+  border-top-left-radius: 5em;
+  border-bottom-left-radius: 5em;
+  border-radius: 5em;
+  letter-spacing: 0.05em;
+  color: #fff;
+  max-width: 80%;
+  /* border: 2px solid #fff; */
+  /* border: 4px solid black; */
+}
+
+.soakOrRun {
+  display: flex;
+  width: 50%;
+  justify-content: space-evenly;
+}
+
+.rainStoryWrap .p1a {
+  font-weight: bold;
+  font-size: 2em;
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.rainStoryWrap .p1b {
+  font-weight: bold;
+  font-size: 2em;
+
+  background: rgba(122, 68, 216, 1);
+}
+
+.rainClouds {
+  width: 100%;
+  /* border-top-right-radius: 25em;
+  border-top-left-radius: 25em; */
+  /* background: rgba(255, 255, 255, 0.8); */
+  margin-bottom: 4em;
+}
+
+.rain1 {
+  width: 100%;
+  top: 45vw;
+  position: absolute;
+  z-index: -1;
+  background: #000;
+}
+.rain2 {
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  top: 190vw;
+  background: black;
+}
+.rain3 {
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  top: 295vw;
+  background: black;
+  border-bottom-left-radius: 5em;
+  border-bottom-right-radius: 5em;
+}
+
+.rainEarth {
+  width: 100%;
+  /* border-bottom-left-radius: 25em; */
+  border-bottom: solid 20px black;
+}
+
+.stormStoryWrap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(rgb(0, 0, 0), rgba(72, 59, 101, 0.2));
+  backdrop-filter: blur(10px);
+}
+
+.storyHead {
+  font-size: 1.6em;
+  background: #000;
+  padding: 1em;
+  border-radius: 5em;
+  letter-spacing: 0.05em;
+  color: white;
+}
+
+.soakRunWrap {
+  display: flex;
+}
+
+.soakWrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  /* border-bottom-right-radius: 20em; */
+  background-image: linear-gradient(black 30%, transparent);
+}
+
+.runWrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  /* border-bottom-left-radius: 20em; */
+  background-image: linear-gradient(black 30%, transparent);
+}
+
+.runWrap p {
+  position: relative;
+  /* left: 1.7em; */
+  padding-bottom: 0;
+}
+
+.soakRunWrap p {
+  font-size: 1.5em;
+  text-align: left;
+  margin: 0;
+  background: rgba(0, 0, 0, 0.9);
+  padding: 2em 2em 2em 3em;
+  border-radius: 5em;
+  letter-spacing: 0.05em;
+  color: #fff;
+  max-width: 50%;
+  position: relative;
+  /* bottom: 3em; */
+}
+
+.soakRunWrap p span {
+  font-size: 1.5em;
+}
+
+.soakRunWrap img {
+  background: rgba(0, 0, 0, 0);
+  border-radius: 10em;
+  margin: 8em 0 4em 0;
+}
+
+.soakRunOverlay {
+  position: relative;
+  display: inline-block;
+}
+
+.soakRunOverlay:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background: radial-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6));
+  border-radius: 20em;
+}
+
+.stormwaterDiv {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.stormStoryWrap .p4 {
+  /* border: 4px solid #000; */
+  letter-spacing: 0.05em;
+  width: 100%;
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #fff;
+  padding: 1em 1em 1em 0;
+  border-top-left-radius: 2em;
+  border-bottom-left-radius: 2em;
+  max-width: 80%;
+  text-align: right;
+  margin-top: 2em;
+  background: #000;
+}
+
+.stormStoryWrap .p4 span {
+  color: #7a44d8;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.stormStoryWrap .p5 {
+  font-size: 1em;
+}
+
+.grassGround {
+  width: 32em;
+}
+
+.roadGround {
+  width: 32em;
+}
+
+.watershedStoryWrap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 0.1%, rgba(0, 0, 0, 1));
+  backdrop-filter: blur(10px);
+  border-bottom-right-radius: 7.2em;
+  border-bottom-left-radius: 7.2em;
+}
+
+.watershedDef {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.watershedStoryWrap h2 {
+  padding: 1em;
+  background: rgba(122, 68, 216, 0.9);
+  color: #fff;
+  text-align: center;
+  border: 4px solid black;
+  border-radius: 20em;
+}
+
+.watershedDef p {
+  font-size: 1.5em;
+  text-align: left;
+  background: rgba(0, 0, 0, 0.9);
+  padding: 2em;
+  border-radius: 3em;
+  letter-spacing: 0.05em;
+  color: #fff;
+  max-width: 30%;
+  /* border: 4px solid black; */
+}
+
+.watershedDef .shedDef {
+  font-size: 2em;
+  font-weight: bold;
+  background: rgba(122, 68, 216, 1);
+}
+
+.watershedDef .shedDef span {
+  font-size: 1.5em;
+}
+
+.watershedStoryWrap .p5 {
+  font-size: 1.5em;
+  text-align: left;
+  background: rgba(0, 0, 0, 0.9);
+  padding: 2em;
+  border-radius: 3em;
+  letter-spacing: 0.05em;
+  color: #fff;
+  max-width: 60%;
+}
+.watershedStoryWrap .p6 {
+  font-size: 1.5em;
+  text-align: left;
+  background: rgba(0, 0, 0, 0.9);
+  padding: 2em;
+  border-radius: 3em;
+  letter-spacing: 0.05em;
+  color: #fff;
+  max-width: 60%;
+}
+
+.threeStreams {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  margin: 5em 0;
+}
+
+.threeStreams img {
+  height: auto;
+  width: 75%;
+  border-radius: 10em;
+  border: 12px solid #000;
+}
+
+.threeStreams div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.threeStreams div h2 {
+  border: none;
+  background: black;
+}
+
+.townBranch {
+}
+
+.bacoateBranch {
+}
+
+.haithBranch {
+}
+
+.branchMerge {
+  width: 60%;
+  position: relative;
+  bottom: 10vw;
+  z-index: -1;
+}
+
+.frenchBroad {
+  width: 70%;
+  border-radius: 20em;
+  border: 12px solid #000;
+  margin: 5em 0;
+}

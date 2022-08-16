@@ -1,0 +1,126 @@
+.howSectionWrap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  background: black;
+  margin-top: 10em;
+  border-radius: 12em;
+  padding-bottom: 20em;
+  scroll-margin-top: 8em;
+}
+
+.howHead {
+  width: 80%;
+  text-align: right;
+  font-size: 2.5em;
+  padding: 1em 1em 1em 1em;
+  border-radius: 5em;
+  letter-spacing: 0.05em;
+  color: white;
+}
+
+.disWrap {
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding-left: 4em;
+}
+
+.disWrap p {
+  max-width: 90%;
+  font-size: 1.5em;
+  background: rgba(0, 0, 0, 0.9);
+  padding: 1.5em;
+  border-radius: 3em;
+  letter-spacing: 0.05em;
+  color: #fff;
+  margin: 0;
+}
+
+.disWrap .disDef {
+  max-width: 100%;
+  font-size: 1.8em;
+  padding-bottom: 0.5em;
+}
+
+.disDef span {
+  font-size: 1.2em;
+  color: rgba(122, 68, 216, 1);
+  font-weight: bold;
+}
+
+.solWrap {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.solWrap .rainBWrap,
+.rainGWrap,
+.frenchDWrap,
+.bioswaleWrap {
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  margin-bottom: 6em;
+  align-items: center;
+}
+
+.solWrap div:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.solWrap div:nth-child(even) h3 {
+  border-top-left-radius: 5em;
+  border-bottom-left-radius: 5em;
+}
+.solWrap div:nth-child(odd) h3 {
+  border-top-right-radius: 5em;
+  border-bottom-right-radius: 5em;
+}
+
+.solWrap h3 {
+  font-size: 1.8em;
+  font-weight: bold;
+  background: rgba(122, 68, 216, 1);
+  width: fit-content;
+  padding: 1.3em;
+}
+
+.solWrap p {
+  max-width: 70%;
+  font-size: 1.5em;
+  background: rgba(0, 0, 0, 0.9);
+  padding: 2em;
+  border-radius: 3em;
+  letter-spacing: 0.05em;
+  color: #fff;
+  margin: 0;
+}
+
+.solWrap .solImageWrap {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.solWrap img {
+  width: 40%;
+  border-radius: 5em;
+}
+
+.rainBWrap img {
+  width: 30%;
+}
+
+.frenchDWrap img {
+  width: 40%;
+}
+
+.bioswaleWrap img {
+  width: 42%;
+}
